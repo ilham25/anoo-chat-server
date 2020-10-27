@@ -4,7 +4,7 @@ import SocketIo from "socket.io";
 
 const app = Express();
 
-const port = process.env.PORT || 3030;
+const port = 3001;
 const server = Http.createServer(app);
 
 const io = SocketIo(server);
